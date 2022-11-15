@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import Products from "./components/Products";
+import Products_V2 from "./components/Products_V2";
 
 export default function AppProducts() {
   const [showProducts, setShowProducts] = useState(true);
   // ******************************************
   return (
     <div>
-      {showProducts && <Products/>}
+      {showProducts && <Products_V2/>}
 
       {/* Toggle 버튼 만들기 */}
       <button onClick={() => {

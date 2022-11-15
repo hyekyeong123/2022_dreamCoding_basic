@@ -1,4 +1,4 @@
-import './css/App.css';
+import './basic/css/App.css';
 import Profile from "./components/Profile";
 import Avatar from "./components/Avatar";
 
